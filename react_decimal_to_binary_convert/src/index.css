@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5a5a5a;
+}
+
+.container {
+  display: flex;
+}
+
+.binary-number,
+.decimal-number {
+  height: 1.7rem;
+  width: 35rem;
+  border: none;
+  border-radius: 8px;
+  background: #C4C4C4;
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+  outline: none;
+}
+
+.arrow-button {
+  height: 2rem;
+  width: 2.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.arrow-button-reversed {
+  height: 2rem;
+  width: 2.5rem;
+  cursor: pointer;
+  transform: rotate(180deg);
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 320px) {
+  .main-container {
+      width: 18rem;
+  }
+}
+
+input, label {
+  display:block;
+}
